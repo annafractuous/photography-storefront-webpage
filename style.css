@@ -1,0 +1,250 @@
+/*TOP BAR*/
+
+.navbar-default {
+    height: 100px;
+    background-color: #F1EDE6;
+    border-bottom-style: inset;
+    border-bottom-width: 1px;
+    border-bottom-color: #2b2b2b;
+}
+
+#name {
+    margin: 25px;
+    display: inline-block;
+    font-family: "Oswald", Arial, sans-serif;
+    font-size: 47px;
+    color: #26210d; 
+}
+
+/*Navigation*/
+
+#navigation {
+    margin-top: -65px;
+}
+
+#navigation li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 20px;
+    color: #2b2b2b;
+    cursor: pointer;
+}
+
+#navigation li:hover {
+    color: #008aa4;
+}
+
+#navigation .active {
+    color: #005767;
+}
+
+/*Cart Icon*/
+
+#cartIcon {
+    position: relative;
+    bottom: 4px;
+    left: -20px;
+    height: 60px;
+    width: 60px;
+}
+
+#cartItems {
+    display: inline-block;
+    position: relative;
+    left: -47px;
+    top: -14px;
+    padding: 1px 5px 1px 5px;
+    border-radius: 10px;
+    font-size: 11px;
+    color: white;
+    background-color: #005767;
+}
+
+/*BODY*/
+
+body {
+    margin-top: 150px;
+    margin-left: 8.33%;
+}
+
+.col-md-3 {
+    padding: 15px;
+}
+
+/*Photo Shelf*/
+
+.thumb {
+    margin: auto;
+    height: 125px;
+    width: 180px;
+    padding: 5px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+
+.thumb img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.col-md-3 h4 {
+    color: #7b5500;
+    font-family: 'Open Sans', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: center;
+}
+
+.col-md-3 p {
+    margin-left: 5px;
+    font-family: "Open Sans", "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+hr {
+    margin: 5 0 5 0;
+}
+
+.sizeSelect {
+    height: 20px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.addtoCart {
+    display: block;
+    margin: auto;
+    padding: 0 10 0 10;
+    height: 40px;
+    background-color: #2b2b2b;
+    color: white;
+    font-family: "Open Sans", "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+/*SIDE BAR*/
+
+#fixedSidebar {
+    position: fixed;
+    padding: 15px 2% 0 2%;
+}
+
+/*Pricing*/
+
+.pricing h4 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-style: bold;
+    font-size: 24px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.pricing h5 {
+    font-size: 15px;
+    font-family: 'Open Sans', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: 400;
+}
+
+/*Cart*/
+
+#ordersumm {
+    margin-top: 50px;
+}
+
+#ordersumm h4 {
+    font-style: bold;
+    font-size: 20px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #005767;
+    text-align: left;
+}
+    
+#ordersumm td {
+    font-family: "Open Sans", "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#emptyCart {
+    margin-left: 5px;
+    font-family: "Open Sans", "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.titleCell {
+    padding: 3px;
+    width: 70%;
+    font-weight: 600;
+}
+
+.sizeCell {
+    padding: 3 7 3 7;
+    width: 15%;
+    font-weight: 300;
+}
+
+.priceCell {
+    padding: 3px;
+    text-align: right;
+    width: 15%;
+}
+
+#cartTotal {
+    margin-top: 10px;
+}
+
+#cartTotal td {
+    font-family: "Open Sans", "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 15px;
+    width: 12%;
+}
+
+#editCart{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    padding: 0 5 0 5;
+    height: 30px;
+    background-color: #005767;
+    color: white;
+    font-family: "Open Sans", "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+/*LIGHTBOX*/
+
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+}
+    
+.lightbox img {
+    max-width: 90%;
+    max-height: 75%;
+    margin-top: 10%;
+}
+
+.lightbox:target {
+  outline: none;
+    display: block;
+}
+
+.lightbox .close {
+    display: block;
+    float: right;
+    margin-top: 7%;
+    padding: 20px 20px;
+    font-size: 18px;
+    color: white;
+}

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Anna Rasshivkina Photography</title>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:600,400,300' rel='stylesheet' type='text/css'>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+    
+<!--Name and Nav Bar-->
+<nav class="navbar navbar-default navbar-fixed-top">
+<h1 id="name">Anna Rasshivkina</h1>
+<div id="navigation">
+    <ul class="pull-right">
+        <li>Home</li>
+        <li>Work</li>
+        <li>About</li>
+        <li class="active">Store</li>
+        <li>Cart
+            <img id="cartIcon" src="http://ow.ly/MqItE">
+            <div id="cartItems"><span id="items"></span></div>
+        </li>
+    </ul>
+</div>
+</nav>
+
+<body>
+
+<!--LIGHTBOX-->
+    <!--Bedouins-->
+    <div class="lightbox" id="img1">
+        <p class="close">X</p>
+        <img src="http://ow.ly/MqFwV">
+    </div>
+    <!--Costa Rica-->        
+    <div class="lightbox" id="img2">
+        <a class="close" href="#">X</a>
+        <img src="http://ow.ly/MqG6O">
+    </div>
+    <!--Valley of the Moon-->        
+    <div class="lightbox" id="img3">
+        <a class="close" href="#">X</a>
+        <img src="http://ow.ly/MqFDf">
+    </div>
+    <!--Goat Ranch-->        
+    <div class="lightbox" id="img4">
+        <a class="close" href="#">X</a>
+        <img src="http://ow.ly/MqG0O">
+    </div>   
+    <!--Pictured Rocks-->
+    <div class="lightbox" id="img5">
+        <p class="close">X</p>
+        <img src="http://ow.ly/LVPr3">
+    </div>
+    <!--Alaska Fog-->
+    <div class="lightbox" id="img6">
+        <a class="close" href="#">X</a>
+        <img src="http://ow.ly/MqJf7">
+    </div>
+    <!--Raven-->
+    <div class="lightbox" id="img7">
+        <a class="close" href="#">X</a>
+        <img src="http://ow.ly/MqJkE">
+    </div>
+    <!--Porch Smoke-->
+    <div class="lightbox" id="img8">
+        <a class="close" href="#">X</a>
+        <img src="http://ow.ly/MqJqm">
+    </div>
+
+<!--Photo Shelf-->
+<div class="photo-grid">
+<div class="row">
+    <div class="col-md-9">
+        <div class="row"> <!--ROW 1-->
+            <!--IMG 1 – Bedouins-->
+            <div class="col-md-3">
+                
+                <!--image-->
+                <div class="thumb">
+                    <a href="#img1">
+                        <img src="http://ow.ly/MqFwV">
+                    </a>
+                </div>
+                
+                <!--info & order form-->
+                <h4 class="printName img1">Bedouins<hr></h4>
+                <p>Order Prints</p>
+                <select class="sizeSelect img1">
+                    <option value="" disabled selected>Select Size</option>
+                <option value="5x7">5x7</option>
+                <option value="8x10">8x10</option>
+                <option value="11x14">11x14</option>
+                <option value="16x20">16x20</option>
+              </select>
+                <button class="addtoCart img1">Add to Cart    </button>
+            </div>
+            
+            <!--IMG 2 – Costa Rica-->
+            <div class="col-md-3">
+            
+                <!--image--> 
+                <div class="thumb">
+                    <a href="#img2">
+                        <img src="http://ow.ly/MqG6O">
+                    </a>
+                </div>
+                
+                <!--info & order form-->
+                <h4 class="printName img2">Costa Rica<hr></h4>
+                <p>Order Prints</p>
+                <select class="sizeSelect img2">
+                    <option value="" disabled selected>Select Size</option>
+                <option value="5x7">5x7</option>
+                <option value="8x10">8x10</option>
+                <option value="11x14">11x14</option>
+                <option value="16x20">16x20</option>
+              </select>
+                <button class="addtoCart img2">Add to Cart</button>
+            </div>
+            
+            <!--IMG 3 – Valley of the Moon-->
+            <div class="col-md-3">
+            
+                <!--image-->
+                <div class="thumb">
+                    <a href="#img3">
+                        <img src="http://ow.ly/MqFDf">
+                    </a>
+                </div>
+                
+                <!--info & order form-->
+                <h4 class="printName img3">Valley of the Moon<hr></h4>
+                <p>Order Prints</p>
+                <select class="sizeSelect img3">
+                    <option value="" disabled selected>Select Size</option>
+                <option value="5x7">5x7</option>
+                <option value="8x10">8x10</option>
+                <option value="11x14">11x14</option>
+                <option value="16x20">16x20</option>
+              </select>
+                <button class="addtoCart img3">Add to Cart</button>
+            </div>
+            
+            <!--IMG 4 – Goat Ranch-->
+            <div class="col-md-3">
+            
+                <!--image-->
+                <div class="thumb">
+                    <a href="#img4">
+                        <img src="http://ow.ly/MqG0O">
+                    </a>
+                </div>
+                
+                <!--info & order form-->
+                <h4 class="printName img4">Goat Ranch<hr></h4>
+                <p>Order Prints</p>
+                <select class="sizeSelect img4">
+                    <option value="" disabled selected>Select Size</option>
+                <option value="5x7">5x7</option>
+                <option value="8x10">8x10</option>
+                <option value="11x14">11x14</option>
+                <option value="16x20">16x20</option>
+              </select>
+                <button class="addtoCart img4">Add to Cart</button>
+            </div>
+        </div> <!--end nested row 1-->
+        
+        <div class="row"> <!--ROW 2-->
+            <!--IMG 5 – Pictured Rocks-->
+            <div class="col-md-3">
+                
+                <!--image-->
+                <div class="thumb">
+                    <a href="#img5">
+                        <img src="http://ow.ly/LVPr3">
+                    </a>
+                </div>
+                
+                <!--info & order form-->
+                <h4 class="printName img5">Pictured Rocks<hr></h4>
+                <p>Order Prints</p>
+                <select class="sizeSelect img5">
+                    <option value="" disabled selected>Select Size</option>
+                <option value="5x7">5x7</option>
+                <option value="8x10">8x10</option>
+                <option value="11x14">11x14</option>
+                <option value="16x20">16x20</option>
+              </select>
+                <button class="addtoCart img5">Add to Cart</button>
+            </div>
+            
+            <!--IMG 6 – Alaska Fog-->
+            <div class="col-md-3">
+            
+                <!--image-->
+                <div class="thumb">
+                    <a href="#img6">
+                        <img src="http://ow.ly/MqJf7">
+                    </a>
+                </div>
+                
+                <!--info & order form-->
+                <h4 class="printName img6">Alaska Fog<hr></h4>
+                <p>Order Prints</p>
+                <select class="sizeSelect img6">
+                    <option value="" disabled selected>Select Size</option>
+                <option value="5x7">5x7</option>
+                <option value="8x10">8x10</option>
+                <option value="11x14">11x14</option>
+                <option value="16x20">16x20</option>
+              </select>
+                <button class="addtoCart img6">Add to Cart</button>
+            </div>
+            
+            <!--IMG 7 – Raven-->
+            <div class="col-md-3">
+            
+                <!--image-->
+                <div class="thumb">
+                    <a href="#img7">
+                        <img src="http://ow.ly/MqJkE">
+                    </a>
+                </div>
+                
+                <!--info & order form-->
+                <h4 class="printName img7">Raven<hr></h4>
+                <p>Order Prints</p>
+                <select class="sizeSelect img7">
+                    <option value="" disabled selected>Select Size</option>
+                <option value="5x7">5x7</option>
+                <option value="8x10">8x10</option>
+                <option value="11x14">11x14</option>
+                <option value="16x20">16x20</option>
+              </select>
+                <button class="addtoCart img7">Add to Cart</button>
+            </div>
+            
+            <!--IMG 8 – Porch Smoke-->
+            <div class="col-md-3">
+            
+                <!--image-->
+                <div class="thumb">
+                    <a href="#img8">
+                        <img src="http://ow.ly/MqJqm">
+                    </a>
+                </div>
+                
+                <!--info & order form-->
+                <h4 class="printName img8">Porch Smoke<hr></h4>
+                <p>Order Prints</p>
+                <select class="sizeSelect img8">
+                    <option value="" disabled selected>Select Size</option>
+                <option value="5x7">5x7</option>
+                <option value="8x10">8x10</option>
+                <option value="11x14">11x14</option>
+                <option value="16x20">16x20</option>
+              </select>
+                <button class="addtoCart img8">Add to Cart</button>
+            </div>
+        </div> <!--end nested row 2-->
+    </div> <!--end nested rows column-->
+        
+    <!--SIDEBAR-->
+    <div class="col-md-2">
+    <div id="fixedSidebar">
+        
+        <!--Pricing-->
+        <table class="pricing">
+            <tr><td>
+                <h4>Pricing<hr></h4>
+            </td></tr>
+            <tr>
+                <td>5 x 7</td>
+                <td>$25</td>
+            </tr>
+            <tr>
+                <td>8 x 10</td>
+                <td>$45</td>
+            </tr>
+            <tr>
+                <td>11 x 14</td>
+                <td>$60</td>
+            </tr>
+            <tr>
+                <td>16 x 20</td>
+                <td>$75</td>
+            </tr>
+        </table>
+        
+        <!--Cart Summary-->
+        <table id="ordersumm">
+            <tr><td colspan="3">
+                <h4>Your Cart</h4>
+            </td></tr>
+        </table>
+        <p id="emptyCart">Your cart is empty.</p>
+        <table id="cartTotal">
+            <tr><hr></tr>
+            <tr>
+                <td>Total: </td>
+                <td class="priceCell">$<span id="sumtotal"></span></td>
+            </tr>
+        </table>
+        <button id="editCart">Edit / Check Out</button>
+    </div> <!--sidebar-->
+    </div> <!--column-->
+    
+</div> <!--row-->
+</div> <!--photo-grid-->
+
+</body>
+</html>
